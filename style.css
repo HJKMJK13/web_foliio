@@ -83,6 +83,57 @@ a{
     background-size: 100%;
 }
 
-.make .container{
-    
+.make .container .make-box{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
+
+.make .container .make-box .make-text h2{
+  color:white;
+  font-size: 72px;
+  width: 560px;
+}
+
+.make .container .make-box .make-text p{
+    color: white;
+    width: 400px;
+    font-size: 22px;
+    padding:20px 0;
+}
+
+.make .container .make-box .make-text .make-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 150px;
+    padding: 10px 10px;
+    background-color: #fff;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.make .container .make-box .make-text .make-list2{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    width: 200px;
+    margin-top: 90px;
+}
+
+.make .container .make-box .make-text .make-list2 .make-item3{
+   height: 20px;
+   margin-left: 20px;
+}
+
+.make .container .make-box .make-text .make-list2 .make-item3 h4{
+  color: white;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.make .container .make-box .make-text .make-list2 .make-item3 p{
+    font-size: 15px;
+    margin-top: -12px;
+}
+
