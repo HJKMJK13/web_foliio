@@ -137,3 +137,16 @@ a{
     margin-top: -12px;
 }
 
+.about .container .about-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about .container .about-box .about-text1 .about-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 120px;
+}
+
