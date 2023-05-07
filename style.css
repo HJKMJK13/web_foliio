@@ -15,3 +15,65 @@ a{
     margin: 0 auto;
 }
 
+.navbar{
+    background-color: #010032;
+    background-size: 100%;
+}
+
+.navbar .container .navbar-box{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 10px;
+}
+
+.navbar .container .navbar-box .navbar-list1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 170px;
+}
+.navbar-list1 .navbar-item1{
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+    background-color: gray;
+    border-radius: 10px;
+}
+.navbar-list1 .navbar-item1 img{
+    margin-left: 22px;
+    margin-top: 22px;
+}
+
+.navbar .container .navbar-box .navbar-list2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 420px;
+}
+
+.navbar .container .navbar-box .navbar-list3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 120px;
+}
+
+.navbar .container .navbar-box .navbar-list3 .navbar-item4 img{
+  display: block;
+}
+
+.navbar .container .navbar-box .navbar-list1 .navbar-item h4{
+    color: white;
+    font-size: 30px;
+}
+
+.navbar .container .navbar-box .navbar-list2 .navbar-item2 p{
+   color: white;
+   font-size: 20px;
+}
+
+.navbar .container .navbar-box .navbar-list3 .list-item3 p{
+    color: white;
+    font-size: 20px;
+}
