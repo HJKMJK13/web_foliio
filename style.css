@@ -137,6 +137,9 @@ a{
     margin-top: -12px;
 }
 
+.about{
+    padding-bottom: 100px;
+}
 .about .container .about-box{
     display: flex;
     align-items: center;
@@ -148,5 +151,68 @@ a{
     align-items: center;
     justify-content: space-between;
     width: 120px;
+    margin-top: 100px;
 }
 
+.about .container .about-box .about-text1 .about-list2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:150px;
+    margin-top: 90px;
+}
+
+.about .container .about-box .about-text1 .about-matn{
+  width: 300px;
+  margin: 20px 0;
+}
+
+.about .container .about-box .about-text1 .about-list3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:200px;
+}
+
+.about .container .about-box .about-text2 h2{
+    font-size:48px;
+    width: 700px;
+    margin-top: 80px;
+}
+
+.about .container .about-box .about-text2 .about2-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 700px;
+}
+
+.about .container .about-box .about-text2 .about2-list .about2-item .small-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 65px;
+    padding-top: 50px;
+
+}
+
+.about .container .about-box .about-text2 .about2-list .about2-item .small-box p{
+    font-size: 60px;
+    color:  #4543E8;
+}
+
+.about .container .about-box .about-text2 .about2-list .about2-item .small-box button{
+    border: none;
+    font-size: 30px;
+    background-color: #fff;
+    cursor: pointer;
+    color: #4543E8;
+}
+
+.about .container .about-box .about-text2 .about2-list2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    width: 700px;
+}
