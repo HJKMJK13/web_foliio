@@ -220,4 +220,68 @@ a{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 130px;
+}
+
+.work .container .work-text{
+    font-size:60px;
+    width: 600px;
+    margin-top: 40px;
+}
+
+.work .container .work-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+ 
+}
+
+/* .work .container .work-box .work-small1{
+ position: absolute;
+}
+
+.work .container .work-box .work-small2{
+ position: absolute;
+ left: 60%;
+}
+
+.work .container .work-box .work-small3{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+
+.work .container .work-box .work-small4{
+    position: absolute;
+}
+
+.work .container .work-box .work-small5{
+    position: absolute;
+    left: 50%;
+    
+} */
+.work .container .work-box .work-small1{
+    width: 400px;
+}
+
+.work .container .work-box .work-small2{
+    width: 400px;
+    margin-top: 150px;
+}
+
+.work .container .work-box .work-small3{
+    display: block;
+    width: 100%;
+    margin-left: 350px;
+    width: 400px;
+}
+
+.work .container .work-box .work-small4{
+    display: inline-block;
+    width:400px;
+}
+
+.work .container .work-box:first-child{
+    margin-top: 200px;
 }
