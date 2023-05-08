@@ -215,3 +215,9 @@ a{
     justify-content: space-between;
     padding-top: 30px;
 }
+
+.work .container .work-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
