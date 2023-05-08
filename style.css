@@ -265,9 +265,23 @@ a{
     width: 400px;
 }
 
+.work .container .work-box .work-small1 .work-small-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 515px;
+}
+
 .work .container .work-box .work-small2{
     width: 400px;
     margin-top: 150px;
+}
+
+.work .container .work-box .work-small2 .work-small-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 630px;
 }
 
 .work .container .work-box .work-small3{
@@ -275,13 +289,78 @@ a{
     width: 100%;
     margin-left: 350px;
     width: 400px;
+    margin-top: 60px;
 }
 
-.work .container .work-box .work-small4{
+.work .container .work-box .work-small3 .work-small-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:750px;
+}
+
+/* .work .container .work-box .work-small4{
     display: inline-block;
     width:400px;
+} */
+
+.work .container .work-box .work-small-box{
+    display:flex;
+    align-items: center;
+    justify-content: space-between; 
+    width: 1100px;
 }
 
-.work .container .work-box:first-child{
-    margin-top: 200px;
+.work-small-box .work-small4{
+    width: 400px;
+    margin-top: 150px;
+}
+
+.work-small-box .work-small4 .work-small-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 625px;
+}
+
+.work-small-box .work-small5{
+    width: 400px;
+}
+
+.work-small-box .work-small5 .work-small-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 520px;
+}
+
+.work .container .small-boxs{
+    background-color: #4543E8;
+    width: 120px;
+    height: 100px;
+    position: absolute;
+    left: 80%;
+}
+
+.work .container{
+    position: relative;
+}
+
+.work .container .small-boxs h3{
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+    font-size: 16px;
+    
+}
+
+.work-matn{
+    width: 500px;
+    padding-top:20px ;
+}
+
+.work .container .small-boxs p{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
 }
