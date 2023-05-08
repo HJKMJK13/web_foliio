@@ -337,9 +337,10 @@ a{
 .work .container .small-boxs{
     background-color: #4543E8;
     width: 120px;
-    height: 100px;
+    height: 120px;
     position: absolute;
-    left: 80%;
+    left: 60%;
+    top: 95%;
 }
 
 .work .container{
