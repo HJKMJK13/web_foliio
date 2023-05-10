@@ -48,8 +48,27 @@ btn.addEventListener("click", function(){
   })
 })
 
-const sonElement=document.querySelectorAll("#son")
-const qoshishElement=document.querySelectorAll("#qoshish")
-qoshishElement.addEventListener("click",function(){
-    sonElement.textContent="qos"
+const aboutBox=document.querySelector(".about")
+const btn2=document.querySelector("#btn2")
+btn2.addEventListener("click", function(){
+  aboutBox.style.display="block"
+  btn2.innerHTML="<p>X</p>"
+  const btn3=document.querySelector("#btn2")
+  btn3.addEventListener("click",function(){
+    aboutBox.style.display="none"
+    btn3.innerHTML="<p>Kirish</p>"
+  })
+})
+
+
+const workBox=document.querySelector(".work")
+const btn3=document.querySelector("#btn3")
+btn3.addEventListener("click", function(){
+  workBox.style.display="block"
+  btn3.innerHTML="<p>X</p>"
+  const btn4=document.querySelector("#btn3")
+  btn4.addEventListener("click",function(){
+    workBox.style.display="none"
+    btn4.innerHTML="<p>Kirish</p>"
+  })
 })
