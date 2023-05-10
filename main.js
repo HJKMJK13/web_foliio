@@ -19,18 +19,10 @@
 
 const makeBox=document.querySelector(".make")
 const TextElement=document.querySelector("#text")
-// TextElement.addEventListener("mouseover",event=>{
-//     event.textContent.add("hammasi")
-// })
 
-// function hover(){
-//     TextElement.textContent="hammasi"
-// }
-// hover()
 
 TextElement.addEventListener("mouseenter", function(){
-    // TextElement.textContent=""
-    TextElement.innerHTML="<i>I design digital products that make an impact.</i>"
+  TextElement.innerHTML="<i>I design digital products that make an impact.</i>"
 })
 
 TextElement.addEventListener("mouseleave", function(){
@@ -71,4 +63,40 @@ btn3.addEventListener("click", function(){
     workBox.style.display="none"
     btn4.innerHTML="<p>Kirish</p>"
   })
+})
+
+const navbar=document.querySelector(".navbar")
+const firstLink=document.querySelector("#first-link")
+firstLink.addEventListener("mouseenter",function(){
+    firstLink.style.border="3px solid white"
+    firstLink.style.borderRadius="5px"
+    firstLink.style.backgroundColor="gray"
+    firstLink.style.padding="5px 10px"
+
+
+})
+
+firstLink.addEventListener("mouseleave",function(){
+    firstLink.style.border="none"
+    firstLink.style.borderRadius="none"
+    firstLink.style.backgroundColor=""
+    firstLink.style.padding="none"
+})
+
+
+const secondLink=document.querySelector("#second-link")
+secondLink.addEventListener("mouseenter",function(){
+    secondLink.style.border="3px solid white"
+    secondLink.style.borderRadius="5px"
+    secondLink.style.backgroundColor="gray"
+    secondLink.style.padding="5px 10px"
+
+
+})
+
+secondLink.addEventListener("mouseleave",function(){
+    secondLink.style.border="none"
+    secondLink.style.borderRadius="none"
+    secondLink.style.backgroundColor=""
+    secondLink.style.padding="none"
 })
