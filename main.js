@@ -13,5 +13,5 @@ const link=document.querySelectorAll("a")
 link.forEach(event=>{
  event.addEventListener("mouseover",event=>{
     
- })
+})
 })
