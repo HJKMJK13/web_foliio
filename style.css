@@ -78,9 +78,10 @@ a{
     font-size: 20px;
 }
 
-.make{
+.make2{
     background-color:#010032;
     background-size: 100%;
+    display: none; 
 }
 
 .make .container .make-box{
