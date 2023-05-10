@@ -100,3 +100,56 @@ secondLink.addEventListener("mouseleave",function(){
     secondLink.style.backgroundColor=""
     secondLink.style.padding="none"
 })
+
+const uchLink=document.querySelector("#keyingi-link")
+uchLink.addEventListener("mouseenter",function(){
+    uchLink.style.border="3px solid white"
+    uchLink.style.borderRadius="5px"
+    uchLink.style.backgroundColor="gray"
+    uchLink.style.padding="5px 10px"
+
+
+})
+
+uchLink.addEventListener("mouseleave",function(){
+    uchLink.style.border="none"
+    uchLink.style.borderRadius="none"
+    
+    uchLink.style.backgroundColor=""
+    uchLink.style.padding="none"
+})
+
+const tortLink=document.querySelector("#keyingi2-link")
+tortLink.addEventListener("mouseenter",function(){
+    tortLink.style.border="3px solid white"
+    tortLink.style.borderRadius="5px"
+    tortLink.style.backgroundColor="gray"
+    tortLink.style.padding="5px 10px"
+
+
+})
+
+tortLink.addEventListener("mouseleave",function(){
+    tortLink.style.border="none"
+    tortLink.style.borderRadius="none"
+    tortLink.style.backgroundColor=""
+    tortLink.style.padding="none"
+})
+
+
+const beshLink=document.querySelector("#oxirgi-link")
+beshLink.addEventListener("mouseenter",function(){
+    beshLink.style.border="3px solid white"
+    beshLink.style.borderRadius="5px"
+    beshLink.style.backgroundColor="gray"
+    beshLink.style.padding="5px 10px"
+
+
+})
+
+beshLink.addEventListener("mouseleave",function(){
+    beshLink.style.border="none"
+    beshLink.style.borderRadius="none"
+    beshLink.style.backgroundColor=""
+    beshLink.style.padding="none"
+})
