@@ -30,14 +30,16 @@ TextElement.addEventListener("mouseleave", function(){
 })
 
 const btn=document.querySelector("#btn")
-btn.addEventListener("click", function(){
+btn.addEventListener("click", event=>{
   makeBox.style.display="block"
   btn.innerHTML="<p>X</p>"
   const btn2=document.querySelector("#btn")
   btn2.addEventListener("click",function(){
     makeBox.style.display="none"
     btn2.innerHTML="<p>Kirish</p>"
+    console.log(event)
   })
+  console.log(event)
 })
 
 const aboutBox=document.querySelector(".about")
