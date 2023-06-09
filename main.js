@@ -19,7 +19,10 @@
 
 const makeBox=document.querySelector(".make")
 const TextElement=document.querySelector("#text")
-
+const smalltext=document.querySelector("#small-text")
+smalltext.addEventListener("mouseenter",function(){
+  smalltext.style.backgroudColor="white"
+})
 
 TextElement.addEventListener("mouseenter", function(){
   TextElement.innerHTML="<i>I design digital products that make an impact.</i>"
