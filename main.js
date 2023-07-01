@@ -158,3 +158,25 @@ beshLink.addEventListener("mouseleave",function(){
     beshLink.style.backgroundColor=""
     beshLink.style.padding="none"
 })
+
+const sonElement=document.querySelectorAll("#son")
+const btnElement=document.querySelectorAll("#qoshish")
+
+
+
+// btnElement.forEach(btnElement){
+//   btnElement.addEventListener("click",()=>{
+//     sonId.forEach(sonId){
+//       sonId +=1
+//       sonElement.textContent=`${sonId}`
+//     }
+//   })
+// }
+
+let sonId=0
+
+btnElement.addEventListener("click",()=>{
+  sonId +=1
+  console.log(sonId)
+  sonElement.textContent=`${sonId}`
+})
